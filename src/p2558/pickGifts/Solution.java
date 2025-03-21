@@ -1,4 +1,4 @@
-/**
+package p2558.pickGifts; /**
  * 2558. Take Gifts From the Richest Pile
  * You are given an integer array gifts denoting the number of gifts in various piles. Every second, you do the following:
  * :)
@@ -13,7 +13,7 @@
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class pickGifts {
+public class Solution {
     public long gifts(int[] gifts, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         long remainingGifts = 0;
